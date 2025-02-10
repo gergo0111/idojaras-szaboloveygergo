@@ -7,8 +7,9 @@ class NapiIdojaras {
     }
   
     toString() {
-      const napok = ['vasárnap', 'hétfő', 'kedd', 'szerda', 'csütörtök', 'péntek', 'szombat'];
-      return `Az ${napok[this.nap]}i időjárás: ${this.idojaras}, maximum ${this.maxHomerseklet} Celsius, minimum ${this.minHomerseklet} Celsius.`;
+        const napok = ['vasárnap', 'hétfő', 'kedd', 'szerda', 'csütörtök', 'péntek', 'szombat'];
+        const napNev = napok[this.nap];
+        return `Az ${napNev}i időjárás: ${this.idojaras}, maximum ${this.maxHomerseklet} Celsius, minimum ${this.minHomerseklet} Celsius.`;
     }
   }
   

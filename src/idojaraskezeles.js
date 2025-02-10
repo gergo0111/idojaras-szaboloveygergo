@@ -11,6 +11,7 @@ async function maiidojaras() {
 
   const minHomerseklet = await rl.question('Add meg a mai minimum hőmérsékletet: ');
   const maxHomerseklet = await rl.question('Add meg a mai maximum hőmérsékletet: ');
+
   const idojaras = await rl.question('Add meg a mai időjárást (pl. napos, felhős, esős): ');
 
   rl.close();

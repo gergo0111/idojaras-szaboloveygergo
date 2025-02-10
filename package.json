@@ -3,6 +3,27 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "main": "node ./index.js"
-  }
+    "main": "node ./src/index.js"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "is-buffer": "^1.1.6",
+    "is-even": "^1.0.0",
+    "is-number": "^3.0.0",
+    "is-odd": "^0.1.2",
+    "kind-of": "^3.2.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gergo0111/idojaras-szaboloveygergo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gergo0111/idojaras-szaboloveygergo/issues"
+  },
+  "homepage": "https://github.com/gergo0111/idojaras-szaboloveygergo#readme",
+  "description": ""
 }
