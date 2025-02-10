@@ -1,0 +1,8 @@
+{
+  "name": "idojaras-szaboloveygergo",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "main": "node ./index.js"
+  }
+}
